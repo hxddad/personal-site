@@ -11,7 +11,7 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fafaff;
+  background: #000000;
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -84,11 +84,11 @@ video {
   box-shadow: 0px 3px 8px rgba(160, 170, 180, 0.9);
 }
 
-.PrimaryBtn {
+.PrimaryBtn { /* resume button*/
   padding: 12px 20px;
   border: none;
-  background: rgb(57, 134, 250);
-  color: #f6f6f6;
+  background: #FFFFFF;
+  color: #000000;
 }
 
 .SecondaryBtn{
@@ -151,7 +151,7 @@ video {
 
 .SectionTitle {
   font-size: 28px;
-  color: #151418;
+  color: #FFFFFF;
   font-weight: 700;
   margin-bottom: 3.5rem;
 }
