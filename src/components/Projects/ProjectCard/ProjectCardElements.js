@@ -11,7 +11,7 @@ export const Card = styled.div`
   box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   @media (min-width: 992px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr); /* Adjusted */
     border-bottom: 0;
     padding-bottom: 0;
   }
@@ -22,6 +22,9 @@ export const CardLeft = styled.div`
   height: 100%;
   img {
     object-fit: cover;
+    width: 100%; /* Added */
+    height: 100%; /* Added */
+    border-radius: 10px; /* Added */
   }
 `;
 
@@ -34,6 +37,8 @@ export const CardRight = styled.div`
   h4 {
     font-size: 1.5rem;
     font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 0.5rem; /* Added */
   }
 
   p {
@@ -41,7 +46,7 @@ export const CardRight = styled.div`
     max-width: 95%;
     margin-top: 10px;
     margin-bottom: 1rem;
-    color: rgba(0, 0, 0, 0.815);
+    color: #FFFFFF;
     text-align: center;
 
     @media (min-width: 992px) {

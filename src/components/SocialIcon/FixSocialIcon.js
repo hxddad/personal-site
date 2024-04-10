@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const SocialContainer = styled.div`
   position: fixed;
-  top: 48%;
+  top: 55%;
   left: 1.5rem;
   transform: translateY(-50%);
 
@@ -19,7 +19,7 @@ const SocialContainer = styled.div`
 
   a {
     font-size: 2.3rem;
-    color: rgb(119, 119, 121);
+    color: rgb(57, 134, 250);
     &:hover {
       color: rgb(57, 134, 250);
     }
@@ -41,7 +41,7 @@ const SocialContainer = styled.div`
       font-size: 2.5rem;
       color: #151418;
       &:hover {
-        color: rgb(57, 134, 250);
+        color: rgb(9, 134, 250);
       }
     }
 
@@ -58,7 +58,7 @@ function FixSocialIcon() {
         <ul>
           <li className="item">
             <a
-              href="https://www.linkedin.com/in/pedro-sales-muniz"
+              href="www.linkedin.com/in/yazan117"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,7 +67,7 @@ function FixSocialIcon() {
           </li>
           <li className="item">
             <a
-              href="https://github.com/salesp07"
+              href="https://github.com/hxddad"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -9,11 +9,13 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
+import { FaExternalLinkAlt } from "react-icons/fa"; // Import the external link icon from Font Awesome
+
 function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        <ScrollAnimation animateIn="fadeInLeft" key={index}>
+        <ScrollAnimation animateIn="fadeIn" key={index}>
           <Card>
             <CardLeft>
               <img src={list.img} alt={list.name} />
@@ -44,7 +46,7 @@ function ProjectCard() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Demo ➜
+                    Github <span style={{ verticalAlign: "-1px", marginLeft: "3px" }}><FaExternalLinkAlt /></span> {/* Icon for opening webpage */}
                   </a>
                 )}
               </BtnGroup>

@@ -43,16 +43,19 @@ export const HeroLeft = styled.div`
   flex: 1;
 
   h1 {
-    font-size: 2.8rem;
-    color: #f6f6f6;
+    font-size: 3rem;
+    color: #FFFFFF;
     opacity: 0.98;
     font-weight: 400;
+    margin-top: 0; /* Add this line to reset default margin */
+    margin-bottom: 1rem; /* Adjust margin to bring text higher */
   }
 
   h5 {
     font-size: 1.6rem;
     color: rgb(119, 119, 121);
-    margin-bottom: 1rem;
+    margin-top: 0; /* Add this line to reset default margin */
+    margin-bottom: 0rem; /* Adjust margin to bring text higher */
     font-weight: 400;
   }
 
@@ -68,9 +71,11 @@ export const HeroLeft = styled.div`
     margin-bottom: 2rem;
 
     h5 {
-      min-height: 5rem;
+      min-height: 9rem;
+    }
   }
 `;
+
 
 export const HeroRight = styled.div`
   flex: 1;
@@ -79,7 +84,7 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 300px;
+  height: 420px;
   width: auto;
 `;
 

@@ -11,17 +11,18 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #000000;
+  background: #333333  ;
   font-weight: 400;
   overflow-x: hidden;
 }
 
 main {
-  background: #151418;
-  background-image: url('../public/blob-haikei.svg');
+  background: #FFFFFF;
+  background-image: url('https://wallpapercave.com/wp/wp2757896.gif');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 725px;
 }
 
 a {
@@ -76,18 +77,18 @@ video {
 }
 
 .btn-shadow{
-  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
+  box-shadow: 0px 1px 7px rgb(255, 255, 255);
 
 }
 
 .btn-shadow:hover{
-  box-shadow: 0px 3px 8px rgba(160, 170, 180, 0.9);
+  box-shadow: 0px 3px 8px rgb(255, 255, 255);
 }
 
 .PrimaryBtn { /* resume button*/
   padding: 12px 20px;
   border: none;
-  background: #FFFFFF;
+  background: rgb(57, 134, 250);
   color: #000000;
 }
 
@@ -99,12 +100,12 @@ video {
 }
 
 .PrimaryBtn:hover {
-  background: rgb(18, 111, 250);
+  background: rgb(57, 134, 250);
 }
 
 .SecondaryBtn:hover {
-  background: #e7f1fa;
-  color: #000
+  background: rgb(57, 134, 250);
+  color: #000000
 }
 
 .Container {
@@ -156,7 +157,7 @@ video {
   margin-bottom: 3.5rem;
 }
 .ProjectWrapper {
-  margin-top: -1rem;
+  margin-top: 0px;
 }
 
 

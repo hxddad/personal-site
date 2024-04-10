@@ -1,50 +1,44 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/yorkeat.jpg",
+    title: "HungryLions",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+      "An app where users can find dining locations at York University based on filters such as dietary restrictions and more.",
+    tech_stack: ["Java", "Python", "Java Swing", "SQLite", "BeautifulSoup"],
+    github_url: "",
+    demo_url: "https://mymindweb.vercel.app/",
+  },
+
+  {
+    img: "/screening.png",
+    title: "ArduinoVid-19 Screening Assessment",
+    description:
+      "A COVID-19 screening tool using Arduino Uno featuring a temperature sensor.",
+    tech_stack: ["Java", "Arduino Uno", "Java Swing", "Firmata4j", "JSSC", "StdLib",],
     github_url: "",
     demo_url: "https://youknowtheending.net/",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/plant.jpg",
+    title: "Auto Plant Watering System",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
+      "An automatic watering system that waters plants based on soil moisture conductivity.",
+    tech_stack: ["MATLAB", "Arduino Uno"],
     github_url: "",
     demo_url: "https://renr-bcit.web.app/",
   },
+
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/pf.png",
+    title: "Portfolio Website",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
-  },
-  {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
-    description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
+      "My portfolio (that you are on right now!) featuring projects and a little about myself.",
+    tech_stack: ["HTML", "CSS", "React.js", "Node.js"],
+    github_url: "",
     demo_url: "https://pokedex-salesp07.netlify.app/",
   },
-  {
-    img: "/jobDetect.png",
-    title: "JobDetect",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
-  },
+  
 ];
 
 // --------------------------------------- Skills
