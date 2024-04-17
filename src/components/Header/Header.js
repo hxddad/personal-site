@@ -7,7 +7,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="/mockup.png"
+           // src="/mockup.png"
             alt="logo"
           />
         </Logo>
@@ -23,14 +23,14 @@ const Header = ({ toggle }) => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <a
+          {/* <a
             className="btn PrimaryBtn"
             href="https://linkedin.com/in/yazan117"
             target="_blank"
             rel="noopener noreferrer"
           >
             Resume
-          </a>
+          </a> */}
         </NavBtn>
         <Bars onClick={toggle} />
       </Nav>

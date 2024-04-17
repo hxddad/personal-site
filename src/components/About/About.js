@@ -45,9 +45,8 @@ function About() {
             <br /><br />
 
             <ScrollAnimation animateIn="fadeIn">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
               <div className="tagline2">
-                I'm familiar following technologies:
+                I'm familiar with the following technologies:
               </div>
             </ScrollAnimation>
             
