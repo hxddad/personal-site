@@ -65,10 +65,6 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
-              <Image
-                src=""
-                alt=""
-              />
             </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>

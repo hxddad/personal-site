@@ -5,12 +5,12 @@ const Header = ({ toggle }) => {
   return (
     <div className="Container" style={{padding: 0}}>
       <Nav>
-        <Logo to="/">
+        {/* <Logo to="/">
           <img
            // src="/mockup.png"
             alt="logo"
           />
-        </Logo>
+        </Logo> */}
         <NavMenu>
           <NavLink className="menu-item" to="projects">
             Projects

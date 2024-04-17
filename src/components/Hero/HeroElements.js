@@ -44,7 +44,7 @@ export const HeroLeft = styled.div`
 
   h1 {
     font-size: 3rem;
-    color: #FFFFFF;
+    color: #FFFFF;
     opacity: 0.98;
     font-weight: 400;
     margin-top: 0; /* Add this line to reset default margin */
