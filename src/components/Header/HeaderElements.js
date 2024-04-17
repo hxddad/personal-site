@@ -12,14 +12,14 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(ScrollLink)`
-  color: #FFFFFF;
+  color: #6feffc;
   display: flex;
   font-size: 1.9rem;
   align-items: center;
   height: 100%;
   cursor: pointer;
   &:hover {
-    color: #ffffff;
+    color: #FFFFFF;
   }
 `;
 

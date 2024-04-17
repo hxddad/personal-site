@@ -3,15 +3,15 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
-    <div className="Container" style={{padding: 0}}>
-      <Nav>
+    <div className="Container" style={{ padding: 0 }}>
+      <Nav style={{ display: "flex", justifyContent: "center" }}>
         {/* <Logo to="/">
           <img
            // src="/mockup.png"
             alt="logo"
           />
         </Logo> */}
-        <NavMenu>
+        <NavMenu style={{ display: "flex", alignItems: "center" }}>
           <NavLink className="menu-item" to="projects">
             Projects
           </NavLink>
