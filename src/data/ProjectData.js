@@ -30,7 +30,7 @@ export const ProjectList = [
   },
 
   {
-    img: "/pf.png",
+    img: "/portfolio.png",
     title: "Portfolio Website",
     description:
       "My portfolio (that you are on right now!) featuring projects and a little about myself.",

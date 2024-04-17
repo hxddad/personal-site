@@ -19,9 +19,9 @@ const SocialContainer = styled.div`
 
   a {
     font-size: 2.3rem;
-    color: rgb(57, 134, 250);
+    color: #66dbfa;
     &:hover {
-      color: rgb(57, 134, 250);
+      color: #ffffff;
     }
   }
 

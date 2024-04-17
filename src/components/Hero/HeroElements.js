@@ -44,18 +44,18 @@ export const HeroLeft = styled.div`
 
   h1 {
     font-size: 3rem;
-    color: #FFFFF;
+    color: #FFFFFF;
     opacity: 0.98;
     font-weight: 400;
-    margin-top: 0; /* Add this line to reset default margin */
+    margin-top: 10rem; /* Add this line to reset default margin */
     margin-bottom: 1rem; /* Adjust margin to bring text higher */
   }
 
   h5 {
     font-size: 1.6rem;
-    color: rgb(119, 119, 121);
-    margin-top: 0; /* Add this line to reset default margin */
-    margin-bottom: 0rem; /* Adjust margin to bring text higher */
+    color: #66dbfa;
+    margin-top: 2rem 
+    margin-bottom: 2rem; /* Adjust margin to bring text higher */
     font-weight: 400;
   }
 

@@ -14,14 +14,15 @@ export const Nav = styled.nav`
 export const NavLink = styled(ScrollLink)`
   color: #FFFFFF;
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   align-items: center;
   height: 100%;
   cursor: pointer;
   &:hover {
-    color: #f6f6f6;
+    color: #ffffff;
   }
 `;
+
 export const Logo = styled('div')`
   img {
     width: 47px;
