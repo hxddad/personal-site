@@ -8,7 +8,6 @@ const SiderBar = styled.div`
   position: fixed;
   height: 100%;
   width: 100%;
-  /* top: 0; */
   left: 0;
   z-index: 999;
   transition: 0.3s ease-in-out;
@@ -28,6 +27,7 @@ const CloseIcon = styled(FaTimes)`
   top: 2rem;
   cursor: pointer;
 `;
+
 export const NavMenu = styled.div`
   display: flex;
   justify-content: center;
@@ -39,10 +39,11 @@ export const NavMenu = styled.div`
   }
 `;
 
-export const NavLink = styled(ScrollLink)`
+export const NavLink = styled.a`
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
+  text-decoration: none;
 
   &:hover {
     color: rgb(119, 119, 121);
@@ -64,35 +65,22 @@ function Dropdown({ isOpen, toggle }) {
         <NavLink
           onClick={toggle}
           className="menu-item"
-          to="projects"
-        >
-          Projects
-        </NavLink>
-        <NavLink
-          onClick={toggle}
-          className="menu-item"
-          to="about"
-        >
-          About
-        </NavLink>
-        <NavLink
-          onClick={toggle}
-          className="menu-item"
-          to="contact"
-        >
-          Contact
-        </NavLink>
-      </NavMenu>
-      <NavBtn onClick={toggle}>
-        <a
-          className="btn PrimaryBtn"
-          href="https://linkedin.com/in/yazan117"
+          href="https://drive.google.com/file/d/1R3P5evO_anwNAciVK4FIVEsVhvVnOK1C/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
           Resume
-        </a>
-      </NavBtn>
+        </NavLink>
+        <NavLink
+          onClick={toggle}
+          className="btn PrimaryBtn"
+          href="https://drive.google.com/file/d/1R3P5evO_anwNAciVK4FIVEsVhvVnOK1C/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </NavLink>
+      </NavMenu>
     </SiderBar>
   );
 }

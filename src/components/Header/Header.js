@@ -1,16 +1,10 @@
 import React from "react";
-import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { Nav, NavLink, Bars, NavMenu } from "./HeaderElements"; // Assuming these are styled-components or similar
 
 const Header = ({ toggle }) => {
   return (
     <div className="Container" style={{ padding: 0 }}>
       <Nav style={{ display: "flex", justifyContent: "center" }}>
-        {/* <Logo to="/">
-          <img
-           // src="/mockup.png"
-            alt="logo"
-          />
-        </Logo> */}
         <NavMenu style={{ display: "flex", alignItems: "center" }}>
           <NavLink className="menu-item" to="projects">
             Projects
@@ -22,16 +16,6 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn>
-          {/* <a
-            className="btn PrimaryBtn"
-            href="https://linkedin.com/in/yazan117"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a> */}
-        </NavBtn>
         <Bars onClick={toggle} />
       </Nav>
     </div>

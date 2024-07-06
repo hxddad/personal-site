@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 
 const FooterSection = styled.div`
-  background-image: url(/footer_wave.svg);
+  background-image: url('https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

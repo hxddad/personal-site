@@ -7,16 +7,14 @@ const StyledIconButton = styled(IconButton)`
     position: fixed;
     bottom: 20px;
     right: 20px;
-    color: white;
+    color: blacl;
     padding: 10px;
 `
 
 const StyledArrowIcon = styled(MdKeyboardArrowUp)`
-    background-color: #007bff;
+    background-color: #66dbfa;
     border-radius: 50%;
-    padding: 5px;
-    box-shadow: 0px 4px 20px rgba(160, 170, 180, 0.6);
-`
+    padding: 5px;`
 
 function ScrollToTop() {
     const [open, setOpen] = React.useState(false);
