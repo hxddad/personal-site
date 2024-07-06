@@ -62,23 +62,7 @@ function Dropdown({ isOpen, toggle }) {
     <SiderBar isOpen={isOpen} onClick={toggle}>
       <CloseIcon onClick={toggle} />
       <NavMenu>
-        <NavLink
-          onClick={toggle}
-          className="menu-item"
-          href="https://drive.google.com/file/d/1R3P5evO_anwNAciVK4FIVEsVhvVnOK1C/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </NavLink>
-        <NavLink
-          onClick={toggle}
-          className="btn PrimaryBtn"
-          href="https://drive.google.com/file/d/1R3P5evO_anwNAciVK4FIVEsVhvVnOK1C/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
+        <NavLink>
         </NavLink>
       </NavMenu>
     </SiderBar>

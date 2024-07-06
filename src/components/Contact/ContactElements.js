@@ -20,6 +20,7 @@ export const Email = styled.div`
   @media (min-width: 576px) {
     span {
       font-size: 1.25rem;
+      color: #fff
     }
   }
   @media (min-width: 992px) {

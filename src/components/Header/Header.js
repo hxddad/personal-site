@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavLink, Bars, NavMenu } from "./HeaderElements"; // Assuming these are styled-components or similar
+import { Nav, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements"; // Assuming these are styled-components or similar
 
 const Header = ({ toggle }) => {
   return (
@@ -15,6 +15,16 @@ const Header = ({ toggle }) => {
           <NavLink className="menu-item" to="contact">
             Contact
           </NavLink>
+          <NavBtn>
+          <a
+            className="btn SecondaryBtn"
+            href="https://drive.google.com/file/d/1R3P5evO_anwNAciVK4FIVEsVhvVnOK1C/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+          </NavBtn>
         </NavMenu>
         <Bars onClick={toggle} />
       </Nav>

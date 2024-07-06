@@ -91,16 +91,17 @@ video {
   border: none;
   background: #66dbfa;
   color: #000000;
-  position: relative;
 }
 
 .SecondaryBtn{
   padding: 10px 18px;
-  border: 2px solid #66dbfa;
+  font-size: x-large;
+  background-color: #66dbfa;
   color: #000;
   margin-right: 1rem;
   position: absolute;
-  right: 5000px;
+  right: 70px;
+  margin-top: auto;
 }
 
 .PrimaryBtn:hover {
@@ -108,7 +109,7 @@ video {
 }
 
 .SecondaryBtn:hover {
-  background: #66dbfa;
+  background: #fff;
   color: #000000
 }
 

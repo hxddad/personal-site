@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/yorkeat.jpg",
+    img: "/dining.jpeg",
     title: "HungryLions",
     description:
       "An app where users can find dining locations at York University based on filters such as dietary restrictions and more.",
@@ -11,7 +11,7 @@ export const ProjectList = [
   },
 
   {
-    img: "/screening.png",
+    img: "/phone.jpeg",
     title: "ArduinoVid-19 Screening Assessment",
     description:
       "A COVID-19 screening tool using Arduino Uno featuring a temperature sensor.",
@@ -20,7 +20,7 @@ export const ProjectList = [
     demo_url: "https://youknowtheending.net/",
   },
   {
-    img: "/plant.jpg",
+    img: "./plant.jpeg",
     title: "Auto Plant Watering System",
     description:
       "An automatic watering system that waters plants based on soil moisture conductivity.",
@@ -30,7 +30,7 @@ export const ProjectList = [
   },
 
   {
-    img: "/portfolio.png",
+    img: "/portfolio.jpeg",
     title: "Portfolio Website",
     description:
       "My portfolio (that you are on right now!) featuring projects and a little about myself.",
