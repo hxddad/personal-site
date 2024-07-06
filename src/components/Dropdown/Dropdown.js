@@ -63,6 +63,14 @@ function Dropdown({ isOpen, toggle }) {
       <CloseIcon onClick={toggle} />
       <NavMenu>
         <NavLink>
+          <a
+            className="btn SecondaryBtn"
+            href="https://drive.google.com/file/d/1R3P5evO_anwNAciVK4FIVEsVhvVnOK1C/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </NavLink>
       </NavMenu>
     </SiderBar>
