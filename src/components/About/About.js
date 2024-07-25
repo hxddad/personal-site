@@ -23,26 +23,20 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeIn">
-            Hello! My name is <strong>Yazan</strong> and I'm currently studying 
-            Software Engineering at York University. In my high school courses, I was 
-            interested in my mathematics, chemistry and physics classes that
-            involved problem-solving, which inspired me to pursue engineering. 
-            I also had a burning interest in technology and the 
-            devices we use today and as a child, that determined the engineering
-            discipline I wanted to get into. 
+            Hello👋! My name is <strong>Yazan</strong> and I'm currently studying 
+            Software Engineering at York University. I have taken courses
+            such as Embedded Systems, Computer Organization, Operating
+            Systems and more, that sparked an interest for Low-Level Systems.
+            As an engineer and a life-long learner, I'm fascinated on how 
+            how things work on a deeper level. How does our code from
+            our favourite programming language successfully compile and work? 
+            How is memory managed in our computer? So you may find me often
+            coding or surfing the internet with C/C++, Assembly or Rust (and a bit of Python for LeetCode 😀).
+
             </ScrollAnimation>
 
             <br /><br />
-            
-            <ScrollAnimation animateIn="fadeIn">
-            From opening a computer for the very first time as a child to our favorite video game
-            in our teen years, we have made irreplaceable memories that shape who we are today. 
-            I want to be able to create these memories and nostalgia that will inspire
-            the next generation to take the reins of our world. I'm grateful that I have
-            the opportunity today to deliver this. 
-            </ScrollAnimation>
 
-            <br /><br />
 
             <ScrollAnimation animateIn="fadeIn">
               <div className="tagline2">

@@ -57,7 +57,7 @@ function Hero() {
                     500,
                     'I\'m an Engineering Student.',
                     1000,
-                    'I\'m a Math Enthusiast.',
+                    'I\'m a Low-Level Learner.',
                     // 'I design and code beautifully simple things, and I love what I do.',
                     1000,
                     'I\'m a Problem Solver.',
