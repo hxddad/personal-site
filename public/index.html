@@ -46,5 +46,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+      <style>
+         footer {
+            font-size: 30px; /* Adjust the size as needed */
+            color: white;
+         }
+      </style>
+    <footer>
+      This website has been viewed <span id="view-count">0</span> times.
+    </footer>
+    <script>
+      fetch('/view-count')
+          .then(response => response.json())
+          .then(data => {
+              document.getElementById('view-count').textContent = data.count;
+          });
+  </script>
+
   </body>
+
 </html>
