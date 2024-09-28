@@ -18,7 +18,7 @@ const Header = ({ toggle }) => {
           <NavBtn>
           <a
             className="btn SecondaryBtn"
-            href="https://drive.google.com/file/d/16LEHfk_S7hTEXta83vD_XuZpjtSngEf_/view?usp=drive_link"
+            href="https://github.com/hxddad/resume/blob/main/yazan_haddad_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

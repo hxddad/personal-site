@@ -69,6 +69,18 @@ export const stackList = [
     name: "NodeJS",
   },
   {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+    name: "Docker",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
+    name: "AWS",
+  },
+  {
+    img:  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+    name: "MongoDB",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     name: "Python",
   },
@@ -81,23 +93,11 @@ export const stackList = [
     name: "Java",
   },
   {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+    name: "Bootstrap",
+  },
+  {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
-    name: "PostgreSQL",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
-    name: "SQLite",
-  },
-  {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg",
-    name: "MATLAB",
-  },
-  {
-    img: "https://zhwu95.gallerycdn.vsassets.io/extensions/zhwu95/riscv/0.0.8/1603848015866/Microsoft.VisualStudio.Services.Icons.Default",
-    name: "RISC-V ASM",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    name: "VS Code",
+    name: "PostGreSQL",
   },
 ];
