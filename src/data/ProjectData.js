@@ -1,11 +1,11 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/dining.jpeg",
-    title: "HungryLions",
+    img: "https://img.pikbest.com/ai/illus_our/20230427/0b77c76394fbb028ffa969240f57a389.jpg!w700wp",
+    title: "Stock Market Predictor",
     description:
-      "An app where users can find dining locations at York University based on filters such as dietary restrictions and more.",
-    tech_stack: ["Java", "Python", "Java Swing", "SQLite", "BeautifulSoup"],
+      "A machine learning model that predicts tomorrow's stocks trained from past datasets.",
+    tech_stack: ["Python", "Scikit-learn", "Pandas"],
     github_url: "",
     demo_url: "https://mymindweb.vercel.app/",
   },
