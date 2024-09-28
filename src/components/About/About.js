@@ -23,16 +23,13 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeIn">
-            Hello👋! My name is <strong>Yazan</strong> and I'm currently studying 
-            Software Engineering at York University. I have taken courses
-            such as Embedded Systems, Computer Organization, Operating
-            Systems and more, that sparked an interest for Low-Level Systems.
-            As an engineer and a life-long learner, I'm fascinated on how 
-            how things work on a deeper level. How does our code from
-            our favourite programming language successfully compile and work? 
-            How is memory managed in our computer? So you may find me often
-            coding or surfing the internet with C/C++, Assembly or Rust (and a bit of Python for LeetCode 😀).
-
+            Hello👋! My name is <u>Yazan</u> and I'm a Software Engineering 
+            student at York University. Alongside my studies, I'm
+            currently exploring my passions through various technologies and building projects.
+             I have touched upon fields including web development, 
+            machine learning, cloud computing, and more. I'm always eager to learn new things and
+            looking for new opportunities to grow as a developer.
+      
             </ScrollAnimation>
 
             <br /><br />
