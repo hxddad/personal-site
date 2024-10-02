@@ -1,6 +1,15 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "https://img.freepik.com/premium-vector/graduates-cap-outline-icon-elements-education-neon-style-icons-simple-icon-websites-web-de_104045-3143.jpg",
+    title: "York SWE Edge",
+    description:
+      "A site containing guides and resources for Computer Science, Software & Computer Engineers on how to prepare and succeed in courses for graduation.",
+    tech_stack: ["React", "JavaScript", "TailwindCSS"],
+    github_url: "",
+    demo_url: "https://pokedex-salesp07.netlify.app/",
+  },
+  {
     img: "https://img.pikbest.com/ai/illus_our/20230427/0b77c76394fbb028ffa969240f57a389.jpg!w700wp",
     title: "Stock Market Predictor",
     description:
@@ -20,25 +29,14 @@ export const ProjectList = [
     demo_url: "https://youknowtheending.net/",
   },
   {
-    img: "./plant.jpeg",
-    title: "Auto Plant Watering System",
+    img: "https://i.redd.it/y6rc2sm425051.jpg",
+    title: "Stellaron Leaks Bot",
     description:
-      "An automatic watering system that waters plants based on soil moisture conductivity.",
-    tech_stack: ["MATLAB", "Arduino Uno"],
+      "A Discord bot that fetches recent posts from\n/r/HonkaiStarRail_leaks without having to manually check Reddit",
+    tech_stack: ["Python", "TypeScript", "Docker", "AWS"],
     github_url: "",
     demo_url: "https://renr-bcit.web.app/",
   },
-
-  {
-    img: "/portfolio.jpeg",
-    title: "Portfolio Website",
-    description:
-      "My portfolio (that you are on right now!) featuring projects and a little about myself.",
-    tech_stack: ["HTML", "CSS", "React.js", "Node.js"],
-    github_url: "",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
-  },
-  
 ];
 
 // --------------------------------------- Skills
@@ -93,8 +91,8 @@ export const stackList = [
     name: "Java",
   },
   {
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    name: "TailWindCSS",
   },
   {
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
