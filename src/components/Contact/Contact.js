@@ -19,7 +19,7 @@ function Contact() {
     <ContactWrapper id="contact">
 
       <div className="Container">
-        <div className="SectionTitle">Get In Touch</div>
+        <div className="SectionTitle">contact.</div>
         <ScrollAnimation animateIn="fadeIn" >
           <div className="BigCard">
             <Email>
@@ -49,7 +49,7 @@ function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Send Email
+                send email
               </a>
             </Email>
           </div>

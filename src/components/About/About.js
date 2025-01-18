@@ -13,7 +13,7 @@ function About() {
   return (
     <ContactWrapper id="about">
       <div className="Container">
-        <div className="SectionTitle">About Me</div>
+        <div className="SectionTitle">about me.</div>
         <div className="BigCard">
         <ScrollAnimation animateIn="fadeIn">
           <Image
@@ -23,13 +23,13 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeIn">
-            Hello👋! My name is <u>Yazan</u> and I'm a Software Engineering 
-            student at York University. Alongside my studies, I'm
-            currently exploring my passions through various technologies and building projects.
-             I have touched upon fields including web development, 
-            machine learning, cloud computing, and more. I'm always eager to learn new things and
-            looking for new opportunities to grow as a developer.
-      
+              hello👋! i'm <u>yazan haddad</u> and i'm a software engineering  
+              student at york university. alongside my studies, i'm  
+              currently exploring my passions through various technologies and building projects.  
+              i have touched upon fields including web development,  
+              machine learning, cloud computing, and more. i'm always eager to learn new things and  
+              looking for new opportunities to grow as a developer. you can checkout some of my projects
+              on my github. 
             </ScrollAnimation>
 
             <br /><br />
@@ -37,7 +37,7 @@ function About() {
 
             <ScrollAnimation animateIn="fadeIn">
               <div className="tagline2">
-                I'm familiar with the following technologies:
+                i'm familiar with the following technologies:
               </div>
             </ScrollAnimation>
             

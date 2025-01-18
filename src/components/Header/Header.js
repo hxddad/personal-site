@@ -7,13 +7,13 @@ const Header = ({ toggle }) => {
       <Nav style={{ display: "flex", justifyContent: "center" }}>
         <NavMenu style={{ display: "flex", alignItems: "center" }}>
           <NavLink className="menu-item" to="projects">
-            Projects
+            projects
           </NavLink>
           <NavLink className="menu-item" to="about">
-            About
+            about
           </NavLink>
           <NavLink className="menu-item" to="contact">
-            Contact
+            contact
           </NavLink>
           <NavBtn>
           <a
@@ -22,7 +22,7 @@ const Header = ({ toggle }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Resume
+            resume
           </a>
           </NavBtn>
         </NavMenu>

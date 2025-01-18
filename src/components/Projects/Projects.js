@@ -6,7 +6,7 @@ function Projects() {
     <>
       <div className="ProjectWrapper" id="projects" style={{ marginTop: '3rem' }}>
         <div className="Container">
-          <div className="SectionTitle">Projects</div>
+          <div className="SectionTitle">projects.</div>
           <ProjectCard />
         </div>
       </div>
