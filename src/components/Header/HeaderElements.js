@@ -7,9 +7,10 @@ export const Nav = styled.nav`
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Center content horizontally */
   z-index: 10;
 `;
+
 
 export const NavLink = styled(ScrollLink)`
   color: #6feffc;
@@ -35,7 +36,7 @@ export const Bars = styled(FaBars)`
   color: #fff;
   font-size: 1.8rem;
   cursor: pointer;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 360px) {
     display: block;
   }
 `;
@@ -43,22 +44,23 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
 
   .menu-item + .menu-item {
-    margin-left: 1rem;
+    margin-left: 1rem; /* Add spacing between menu items */
   }
-  @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 360px) {
     display: none;
   }
 `;
+
 
 export const NavBtn = styled.div`
   display: flex;
   align-items: center;
   margin-right: 24px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 268px) {
     display: none;
   }
 `;
