@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 *,
 *::before,
 *::after {
@@ -8,7 +8,8 @@
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Jersey 15", "static";
+  font-family: "Chakra Petch", serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #000000  ;
