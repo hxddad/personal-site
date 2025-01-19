@@ -16,9 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+/* https://steamuserimages-a.akamaihd.net/ugc/2013703043759078796/497767DA37D85AFAB2EC371C0E91833FD5FCCAA2/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true */
 main {
   background: #FFFFFF;
-  background-image: url('https://raw.githubusercontent.com/D3Ext/aesthetic-wallpapers/main/images/retro_city.gif');
+  background-image: url('https://cdnb.artstation.com/p/assets/images/images/029/480/193/original/aaron-truehitt-faye-beach-f.gif?1597688457&dl=1');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
