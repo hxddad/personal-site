@@ -49,7 +49,7 @@ export const NavMenu = styled.div`
     margin-left: 1rem; /* Add spacing between menu items */
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 361px) {
     display: none;
   }
 `;

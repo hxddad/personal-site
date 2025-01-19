@@ -43,14 +43,6 @@ function Contact() {
                   </IconButton>
                 </Tooltip>
               </div>
-              <a
-                className="btn PrimaryBtn btn-shadow"
-                href="haddad.yazan117@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                send email
-              </a>
             </Email>
           </div>
         </ScrollAnimation>
