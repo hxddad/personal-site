@@ -62,3 +62,18 @@ export const NavBtn = styled.div`
     display: none;
   }
 `;
+
+export const ExternalNavLink = styled.a`
+  color: #6feffc;
+  display: flex;
+  font-size: 1.9rem;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: #FFFFFF;
+  }
+`;
+
