@@ -23,11 +23,9 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeIn">
-              hello👋! i'm <u>yazan</u> and i'm a software engineering  
-              student at york university. alongside my studies, i'm  
-              currently exploring my passions through various technologies and building projects.  
-              i'm always eager to learn new things and looking for new opportunities to grow as a 
-              developer. you can view some of my projects on my github. 
+             👋 hello, i'm <u>yazan</u>! i'm a software engineering  
+              student at york university currently looking for internship
+              opportunities. you can view some of my projects below!  
             </ScrollAnimation>
 
             <br /><br />

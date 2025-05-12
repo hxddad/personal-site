@@ -9,6 +9,8 @@ export const Card = styled.div`
   overflow: hidden;
   border-radius: 20px;
   box-shadow: #66dbfa 0px 5px 50px;
+  min-height: 300px; /* Add fixed height */
+  width: 100%; /* Ensure full width */
   @media (min-width: 992px) {
     grid-template-columns: repeat(2, 1fr); /* Adjusted */
     border-bottom: 0;
@@ -18,12 +20,17 @@ export const Card = styled.div`
 
 export const CardLeft = styled.div`
   justify-self: center;
-  height: 100%;
+  height: 300px; /* Fixed height */
+  width: 100%; /* Fixed width */
+  position: relative; /* Add this */
   img {
+    position: absolute; /* Add this */
+    top: 0;
+    left: 0;
     object-fit: cover;
-    width: 100%; /* Added */
-    height: 100%; /* Added */
-    border-radius: 10px; /* Added */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
   }
 `;
 
@@ -34,7 +41,7 @@ export const CardRight = styled.div`
   align-items: center;
 
   h4 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #FFFFFF;
     margin-bottom: 0.5rem; /* Added */

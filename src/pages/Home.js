@@ -11,8 +11,7 @@ function Home() {
     <>
       <Hero />
       <About />
-      {/* <Projects /> */}
-      <Contact />
+      <Projects />
       <FixSocialIcon />
       <Footer />
       <ScrollToTop />

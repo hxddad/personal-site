@@ -1,39 +1,39 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "https://img.freepik.com/premium-vector/graduates-cap-outline-icon-elements-education-neon-style-icons-simple-icon-websites-web-de_104045-3143.jpg",
-    title: "York SWE Edge",
+    img: "https://lassonde.yorku.ca/civil/wp-content/uploads/sites/4/2021/08/BERGENONHDR-1.jpg",
+    title: "york swe edge.",
     description:
-      "A site containing guides and resources for Computer Science, Software & Computer Engineers on how to prepare and succeed in courses for graduation.",
-    tech_stack: ["React", "JavaScript", "TailwindCSS"],
+      "a survivor's guide with resources for computer science, software, and computer engineering students to prepare for and succeed in their courses through to graduation.",
+    tech_stack: ["React", "TypeScript", "Docusaurus", "TailwindCSS"],
     github_url: "",
     demo_url: "https://pokedex-salesp07.netlify.app/",
   },
   {
-    img: "https://img.pikbest.com/ai/illus_our/20230427/0b77c76394fbb028ffa969240f57a389.jpg!w700wp",
-    title: "Stock Market Predictor",
+    img: "https://s.pinimg.com/images/facebook_share_image.png",
+    title: "pinterest ai pin blocker.", 
     description:
-      "A machine learning model that predicts tomorrow's stocks trained from past datasets.",
-    tech_stack: ["Python", "Scikit-learn", "Pandas"],
-    github_url: "",
+      "a chrome extension that automatically detects and blurs ai-generated images on your pinterest feed using the sightengine api.",
+    tech_stack: ["Chrome", "JavaScript", "HTML/CSS", "Sightengine API"],
+    github_url: "jjjj",
     demo_url: "https://mymindweb.vercel.app/",
   },
 
   {
-    img: "/phone.jpeg",
-    title: "ArduinoVid-19 Screening Assessment",
+    img: "https://www.un.org/sites/un2.un.org/files/field/image/1583952355.1997.jpg",
+    title: "arduinovid-19 screening test.",
     description:
-      "A COVID-19 screening tool using Arduino Uno featuring a temperature sensor.",
-    tech_stack: ["Java", "Arduino Uno", "Java Swing", "Firmata4j", "JSSC", "StdLib",],
+      "a covid-19 screening tool using arduino uno featuring a temperature sensor.",
+    tech_stack: ["Java", "Arduino", "Java", "Firmata4j",],
     github_url: "",
     demo_url: "https://youknowtheending.net/",
   },
   {
-    img: "https://i.redd.it/y6rc2sm425051.jpg",
-    title: "Stellaron Leaks Bot",
+    img: "https://whop.com/blog/content/images/2024/08/Discord-vs-Reddit-for-Building-a-Community.webp",
+    title: "honkai: star rail leaks bot.",
     description:
-      "A Discord bot that fetches recent posts from\n/r/HonkaiStarRail_leaks without having to manually check Reddit",
-    tech_stack: ["Python", "TypeScript", "Docker", "AWS"],
+      "a discord bot that fetches recent posts from honkai: star rail leaks communities without having to manually check reddit.",
+    tech_stack: ["Python", "AWS"],
     github_url: "",
     demo_url: "https://renr-bcit.web.app/",
   },
