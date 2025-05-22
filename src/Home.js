@@ -1,11 +1,11 @@
-import Hero from "./components/Hero/Hero";
-import FixSocialIcon from "./components/SocialIcon/FixSocialIcon";
+import Hero from "./Hero";
+import SocialIcons from "./SocialIcons";
 
 function Home() {
   return (
     <>
       <Hero />
-      <FixSocialIcon />
+      <SocialIcons />
     </>
   );
 }

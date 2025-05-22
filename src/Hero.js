@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Dropdown from "../Dropdown/Dropdown";
-import Header from "../Header/Header";
+import SocialIcons from './SocialIcons';
 import {
   HeroContainer,
   HeroWrapper,
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
-import ScrollAnimation from "react-animate-on-scroll";
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,11 +26,9 @@ function Hero() {
 
   return (
     <main>
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Header toggle={toggle} />
+      <SocialIcons />
       <HeroContainer>
         <HeroWrapper>
-          <ScrollAnimation animateIn="fadeIn">
             <TypeAnimation
               cursor={false}
               sequence={[
@@ -99,7 +95,6 @@ function Hero() {
                 repeat={Infinity}
               />
             )}
-          </ScrollAnimation>
         </HeroWrapper>
       </HeroContainer>
     </main>

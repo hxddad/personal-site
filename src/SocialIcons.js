@@ -1,20 +1,23 @@
-import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "@emotion/styled";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const SocialContainer = styled.div`
   position: fixed;
-  top: 55%;
-  left: 1.5rem;
-  transform: translateY(-50%);
+  top: 2rem;  
+  left: 50%;  // Changed from 1.5rem
+  transform: translateX(-50%);  // Changed from translateY(-50%)
+  z-index: 1000;
 
   ul {
-    display: block;
+    display: flex;  // Changed from block
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
   }
 
   .item + .item {
-    margin-top: 1rem;
+    margin-left: 2rem;  // Changed from margin-top
   }
 
   a {
@@ -26,35 +29,20 @@ const SocialContainer = styled.div`
   }
 
   @media screen and (max-width: 1000px) {
-    margin-top: 2rem;
-    position: relative;
-    top: 0;
-    left: 0;
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      list-style: none;
-    }
-
+    position: fixed;  // Changed to keep it fixed on mobile
+    margin-top: 0;   // Removed extra margin
+    
     a {
       font-size: 2.5rem;
-      color: #66dbfa;
       &:hover {
         color: rgb(9, 134, 250);
       }
     }
-
-    .item + .item {
-      margin-top: 0;
-      margin-left: 2rem;
-    }
   }
 `;
-function FixSocialIcon() {
+function SocialIcons() {
   return (
     <SocialContainer>
-      <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
         <ul>
           <li className="item">
             <a
@@ -75,9 +63,8 @@ function FixSocialIcon() {
             </a>
           </li>
         </ul>
-      </ScrollAnimation>
     </SocialContainer>
   );
 }
 
-export default FixSocialIcon;
+export default SocialIcons;

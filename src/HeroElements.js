@@ -9,6 +9,8 @@ export const HeroContainer = styled.div`
   margin-left: auto;
   display: flex;
   flex-direction: column;
+  min-height: 100vh; // Add this to make container full height
+  justify-content: center; // Add this to center vertically
 
   @media (min-width: 576px) {
     max-width: 540px;
@@ -36,7 +38,7 @@ export const HeroWrapper = styled.div`
     color: #FFFFFF;
     opacity: 0.98;
     font-weight: 400;
-    margin-top: 10rem;
+    margin-top: 0; // Change from 10rem to 0
     margin-bottom: 1rem;
     width: 100%;
   }
@@ -44,7 +46,7 @@ export const HeroWrapper = styled.div`
   h5 {
     font-size: 1.6rem;
     color: #66dbfa;
-    margin-top: 2rem;
+    margin-top: 0.5rem;    
     margin-bottom: 2rem;
     font-weight: 400;
     width: 100%;
