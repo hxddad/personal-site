@@ -35,7 +35,7 @@ function Hero() {
                 'hello, i\'m yazan.',
                 () => setShowSubtitle(true)
               ]}
-              speed={65}  // Changed to match the subtitle speed
+              speed={30}  // Changed to match the subtitle speed
               wrapper="h1"
               repeat={0}
             />
@@ -56,7 +56,7 @@ function Hero() {
                   500,
                   'so...you\'re still here?',
                   1000,
-                  'you can scroll down now...',
+                  'you can click on my icons above, you know...',
                   1000,
                   'look,',
                   500,
@@ -64,9 +64,9 @@ function Hero() {
                   1000,
                   '...',
                   1000,
-                  'since you\'re still here,',
+                  'since you\'re still here...',
                   500,
-                  'since you\'re still here, let\'s play a game of rock, paper, scissors.',
+                  'let\'s play a game of rock, paper, scissors.',
                   1000,
                   'okay here we go...',
                   1000,
