@@ -1,5 +1,4 @@
-import styled, { keyframes } from "styled-components";
-import { Link as LinkScroll } from "react-scroll";
+import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   padding-bottom: 2rem;
@@ -27,47 +26,38 @@ export const HeroContainer = styled.div`
 
 export const HeroWrapper = styled.div`
   display: flex;
-  flex-direction: row;
-
-  @media screen and (max-width: 992px) {
-    flex-direction: column;
-  }
-`;
-
-export const HeroLeft = styled.div`
-  display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
-  text-align: left;
-  flex: 1;
+  text-align: center;
 
   h1 {
     font-size: 3rem;
     color: #FFFFFF;
     opacity: 0.98;
     font-weight: 400;
-    margin-top: 10rem; /* Add this line to reset default margin */
-    margin-bottom: 1rem; /* Adjust margin to bring text higher */
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    width: 100%;
   }
 
   h5 {
     font-size: 1.6rem;
     color: #66dbfa;
-    margin-top: 2rem 
-    margin-bottom: 2rem; /* Adjust margin to bring text higher */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-weight: 400;
+    width: 100%;
   }
 
   p {
     font-size: 17px;
     color: #f6f6f6;
     opacity: 0.85;
+    width: 100%;
   }
 
   @media screen and (max-width: 992px) {
-    text-align: center;
-    align-items: center;
     margin-bottom: 2rem;
 
     h5 {
@@ -76,57 +66,9 @@ export const HeroLeft = styled.div`
   }
 `;
 
-
-export const HeroRight = styled.div`
-  flex: 1;
-  justify-content: center;
-  display: flex;
-`;
-
 export const Image = styled.img`
   height: 420px;
   width: auto;
 `;
 
-const ScrollAnimation = keyframes`
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-20px);
-  }
-  60% {
-    transform: translateY(-10px);
-  }
-`;
 
-export const ScrollDown = styled(LinkScroll)`
-  display: flex;
-  justify-content: flex-start;
-  cursor: pointer;
-  position: absolute;
-
-  animation: ${ScrollAnimation} 2s linear 0s infinite;
-  @media screen and (max-width: 992px) {
-    position: relative;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-`;
-
-export const ScrollLink = styled.div`
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-  color: #f6f6f6;
-
-  img {
-    height: 35px;
-    width: 35px;
-    margin-left: 6px;
-  }
-`;

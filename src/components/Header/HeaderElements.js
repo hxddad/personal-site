@@ -24,22 +24,6 @@ export const NavLink = styled(ScrollLink)`
   }
 `;
 
-export const Logo = styled('div')`
-  img {
-    width: 47px;
-    height: 47px;
-  }
-`;
-
-export const Bars = styled(FaBars)`
-  display: none;
-  color: #fff;
-  font-size: 1.8rem;
-  cursor: pointer;
-  @media screen and (max-width: 360px) {
-    display: block;
-  }
-`;
 
 export const NavMenu = styled.div`
   display: flex;
@@ -55,15 +39,6 @@ export const NavMenu = styled.div`
 `;
 
 
-export const NavBtn = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: 24px;
-
-  @media screen and (max-width: 268px) {
-    display: none;
-  }
-`;
 
 export const ExternalNavLink = styled.a`
   color: #6feffc;

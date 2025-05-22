@@ -1,16 +1,13 @@
-// Home.js
-import React from 'react';
-import { useTheme } from '../ThemeContext';
+import Hero from "./components/Hero/Hero";
+import FixSocialIcon from "./components/SocialIcon/FixSocialIcon";
 
-const Home = () => {
-  const { theme, toggleTheme } = useTheme();
-
+function Home() {
   return (
-    <div className={`app ${theme}`}>
-      <h1>Welcome to the Home Page!</h1>
-      <button onClick={toggleTheme}>Toggle Theme</button>
-    </div>
+    <>
+      <Hero />
+      <FixSocialIcon />
+    </>
   );
-};
+}
 
 export default Home;
