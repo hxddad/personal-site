@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import SocialIcons from './SocialIcons';
 import {
   HeroContainer,
@@ -30,12 +30,12 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
             <TypeAnimation
-              cursor={false}
+              cursor={true}
               sequence={[
                 'hello, i\'m yazan.',
                 () => setShowSubtitle(true)
               ]}
-              speed={{ type: "keyStrokeDelayInMs", value: 100 }}
+              speed={65}  // Changed to match the subtitle speed
               wrapper="h1"
               repeat={0}
             />

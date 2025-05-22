@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 import styled from "@emotion/styled";
 
 const SocialContainer = styled.div`
@@ -21,7 +21,7 @@ const SocialContainer = styled.div`
   }
 
   a {
-    font-size: 2.3rem;
+    font-size: 3rem;
     color: #66dbfa;
     &:hover {
       color: #ffffff;
@@ -60,6 +60,15 @@ function SocialIcons() {
               rel="noopener noreferrer"
             >
               <FaGithub />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="/path-to-your-resume.pdf" // Replace with your resume URL
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFileAlt />
             </a>
           </li>
         </ul>
