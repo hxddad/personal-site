@@ -5,7 +5,7 @@ A minimalistic personal portfolio website built with React and styled-components
 ## Features
 
 - Animated hero section with typewriter effect
-- Social icons for [LinkedIn](https://www.linkedin.com/in/hxddad/), [GitHub](https://github.com/hxddad), and Resume
+- Social icons for LinkedIn, GitHub, and Resume
 - Responsive design
 - Easy to customize
 
