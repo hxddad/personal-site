@@ -38,5 +38,7 @@ A minimalistic personal portfolio website built with React and styled-components
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [styled-components](https://styled-components.com/) - Visual primitives for the component age
 
+## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
