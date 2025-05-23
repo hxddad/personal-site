@@ -29,7 +29,7 @@ A minimalistic personal portfolio website built with React and styled-components
 ## Customization
 
 - Update title and subtitle content in `src/Hero.js`
-- Modify styles in `src/index.css` & `src/HeroElements.css`
+- Modify styles in `src/index.css` & `src/HeroElements.js`, backround can also be modified in `src/index.css`
 - Change LinkedIn, GitHub and Resume links for top icons in `src/SocialIcons.js`, feel free to add, change or remove icons
 - Adjust site metadata (title, favicon, description, etc.) in `public/index.html`
 
