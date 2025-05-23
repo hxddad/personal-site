@@ -4,12 +4,12 @@ import styled from "@emotion/styled";
 const SocialContainer = styled.div`
   position: fixed;
   top: 2rem;  
-  left: 50%;  // Changed from 1.5rem
-  transform: translateX(-50%);  // Changed from translateY(-50%)
+  left: 50%;  
+  transform: translateX(-50%);  
   z-index: 1000;
 
   ul {
-    display: flex;  // Changed from block
+    display: flex;  
     justify-content: center;
     align-items: center;
     list-style: none;
@@ -17,7 +17,7 @@ const SocialContainer = styled.div`
   }
 
   .item + .item {
-    margin-left: 2rem;  // Changed from margin-top
+    margin-left: 2rem;  
   }
 
   a {
@@ -29,8 +29,8 @@ const SocialContainer = styled.div`
   }
 
   @media screen and (max-width: 1000px) {
-    position: fixed;  // Changed to keep it fixed on mobile
-    margin-top: 0;   // Removed extra margin
+    position: fixed;  
+    margin-top: 0;   
     
     a {
       font-size: 2.5rem;
@@ -64,7 +64,7 @@ function SocialIcons() {
           </li>
           <li className="item">
             <a
-              href="/path-to-your-resume.pdf" // Replace with your resume URL
+              href="/path-to-your-resume.pdf" 
               target="_blank"
               rel="noopener noreferrer"
             >

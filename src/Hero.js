@@ -35,7 +35,7 @@ function Hero() {
                 'hello, i\'m yazan.',
                 () => setShowSubtitle(true)
               ]}
-              speed={30}  // Changed to match the subtitle speed
+              speed={30}  
               wrapper="h1"
               repeat={0}
             />
