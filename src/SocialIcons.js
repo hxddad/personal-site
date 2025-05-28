@@ -64,7 +64,7 @@ function SocialIcons() {
           </li>
           <li className="item">
             <a
-              href="/path-to-your-resume.pdf" 
+              href="/yazan_haddad_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
